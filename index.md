@@ -4,7 +4,7 @@ feature_text: |
   ## Brandon Javier Morocho Puculpala
   “Estoy escribiendo una autobiografía no autorizada.”
                                STEVEN ALEXANDER WRIGHT
-feature_image: "https://acortar.link/N4TD8u"
+feature_image: "https://acortar.link/LAXnSF"
 excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it."
 ---
 
