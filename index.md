@@ -1,7 +1,7 @@
 ---
-title: Introduccion 
+title: Brandon Javier Morocho Puculpala
 feature_text: |
-  ## Brandon Javier Morocho Puculpala
+  ## Introducción
   “Estoy escribiendo una autobiografía no autorizada".
   
   STEVEN ALEXANDER WRIGHT
