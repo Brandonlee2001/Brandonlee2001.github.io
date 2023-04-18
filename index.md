@@ -5,7 +5,7 @@ feature_text: |
   “Estoy escribiendo una autobiografía no autorizada".
   
   STEVEN ALEXANDER WRIGHT
-feature_image: "https://acortar.link/C8NTOu"
+feature_image: "https://pngimg.com/d/buttons_PNG167.png"
 excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it."
 ---
 
