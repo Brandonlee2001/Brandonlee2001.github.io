@@ -2,24 +2,40 @@
 layout: default
 ---
 
-{% include site-header.html %}
+<main id="main" class="main-content" aria-label="Content">
+  <article class="h-entry">
+    {% include page-image.html %}
+    <div class="page-wrapper">
+      <header class="page-header">
+        {% assign title = page.title | markdownify | strip_html %}
+        {% if page.link %}
+          <h1 id="page-title" class="page-title p-name"><a href="{{ page.link }}">{{ title }} <span class="link-arrow">&rarr;</span></a></h1>
+        {% else %}
+          <h1 id="page-title" class="page-title p-name">{{ title }}</h1>
+        {% endif %}
+      </header>
 
-<main class="main  container">
+      <div class="page-sidebar">
+        {% include page-author.html %}
+        {% include page-categories.html %}
+        {% include page-tags.html %}
+      </div>
 
-  <article class="article  article--post  content  typeset">
+      <div class="page-content">
+        <div class="e-content">
+          {{ content }}
+        </div>
 
-    <h1>{{ page.title }}</h1>
-    {% include post-meta.html %}
-    {{ content }}
+        {% if page.share %}
+          {% include social-share.html %}
+        {% endif %}
 
-    {% include nav-share.html %}
+        {% if site.disqus.shortname %}
+          {% include disqus-comments.html %}
+        {% endif %}
 
-    {% include post-comments.html %}
-
+        {% include page-pagination.html %}
+      </div>
+    </div>
   </article>
-
-  {% if page.aside == true %}{% include site-aside.html %}{% endif %}
-
 </main>
-
-{% include site-footer.html %}
