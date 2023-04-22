@@ -1,0 +1,123 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #188cff;
+    overflow: hidden;
+  }
+  .marco {
+    border: 4px solid rgb(72, 185, 255);
+    padding: 20px;
+  }
+
+  hr {
+    border-top: 4px solid rgb(251, 255, 32);
+    border-color: rgb(49, 149, 255);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #3c4cfa;
+  }
+  
+  /* Estilos de la hoja de vida */
+  .container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  h1, h2, h3, h4 {
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  h2 {
+    margin-top: 50px;
+  }
+  
+  ul.skills {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul.skills li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  /* Estilos de la sección de educación y experiencia */
+  .section {
+    margin-top: 50px;
+  }
+  
+  .section h3 {
+    margin-bottom: 20px;
+  }
+  
+  .section ul {
+    margin-left: 30px;
+  }
+
+
+
+
+
+*{
+    font-size: 18px;
+    font-weight: 100;
+    
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+body{
+    background-color: rgba(5, 122, 254, 0.724);
+    background-image: url(Recursos/FONDO6.jpg);
+   }
+
+h1{
+    font-size: 40px;
+    font-weight: 150;
+    font-style: inherit;
+}
+
+img{
+    width: 150px;
+    height: 200px;
+    margin-left: 100px;
+    opacity: 1;
+    border: 2px solid rgb(18, 117, 198);
+}
+
+
+p,h2,h3,h4,h5,li{
+    font-style:inherit;
+    font-size: 17px;
+}
+
+
+img:hover{
+    opacity: 1;
+}
+
+
+video{
+    width: 400px;
+    height: 300px;
+    margin-left: 200px;
+}
+
+
